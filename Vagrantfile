@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
     # ต่อเข้าวงแลนภายใน
     web.vm.network "private_network", ip: "10.0.0.11", virtualbox__intnet: "secure_lan"
 
-    config.vm.provider "virtualbox" do |vb|
+    web.vm.provider "virtualbox" do |vb|
       vb.name = "se-lab-web"
       vb.memory = "1024"
       vb.cpus = 1
@@ -56,7 +56,7 @@ Vagrant.configure("2") do |config|
     # ต่อเข้าวงแลนภายใน
     db.vm.network "private_network", ip: "10.0.0.12", virtualbox__intnet: "secure_lan"
 
-    config.vm.provider "virtualbox" do |vb|
+    db.vm.provider "virtualbox" do |vb|
       vb.name = "se-lab-db"
       vb.memory = "1024"
       vb.cpus = 1

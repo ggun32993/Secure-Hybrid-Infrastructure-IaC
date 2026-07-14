@@ -2,7 +2,7 @@
 
 ระบบโครงสร้างพื้นฐานเครือข่ายความปลอดภัยสูงและตั้งค่าอัตโนมัติ (Automated Provisioning & Configuration) จำลองผ่าน Vagrant, Ansible และ WireGuard VPN พร้อมระบบเฝ้าระวังเซิร์ฟเวอร์ (Server Monitoring) ด้วย Prometheus และ Grafana
 
-## 🏗️ การออกแบบสถาปัตยกรรมเครือข่าย (Architecture Design)
+## การออกแบบสถาปัตยกรรมเครือข่าย (Architecture Design)
 
 ```text
 +-------------------------------------------------------------+
@@ -34,7 +34,7 @@
 
 ---
 
-## 🛠️ เทคโนโลยีและซอฟต์แวร์ที่เลือกใช้ (Tech Stack & Tools)
+##  เทคโนโลยีและซอฟต์แวร์ที่เลือกใช้ (Tech Stack & Tools)
 
 - **Virtualization**: Oracle VirtualBox (จำลองระบบปฏิบัติการ)
 - **Infrastructure as Code (IaC)**: Vagrant (จัดการโครงสร้าง VMs ด้วยไฟล์โค้ด)
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 ขั้นตอนการติดตั้งและรันระบบ (Deployment Guide)
+##  ขั้นตอนการติดตั้งและรันระบบ (Deployment Guide)
 
 ### 1. สิ่งที่ต้องเตรียมบนคอมพิวเตอร์หลัก (Prerequisites)
 กรุณาตรวจสอบว่าคอมพิวเตอร์หลักของคุณได้ลงโปรแกรมเหล่านี้เรียบร้อยแล้ว:
